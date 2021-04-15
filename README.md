@@ -3,10 +3,10 @@
 2. Insulation score of normal cells: a HOMER output .bedGraph file at ./data/<normal dataset name>.Insulation.bedGraph
 3. Genome coordinates of TADs in tumor cells: A HOMER output .bed file at ./data/<tumor dataset name>.tad.2D.bed
 4. Genome coordinates of TADs in normal cells: A HOMER output .bed file at ./data/<normal dataset name>.tad.2D.bed
-5. A three-column tab-seperated(.tsv) file that provides information of differentially expressed genes at ./data/differentially_expressed_genes.tsv 
-	column1: gene name.  
-	column2: expression log2 fold change (tumor/normal).  
-	column3: FDR.  
+5. A three-column tab-seperated(.tsv) file that provides information of differentially expressed genes at ./data/differentially_expressed_genes.tsv   
+	column1: gene name  
+	column2: expression log2 fold change (tumor/normal)  
+	column3: FDR  
 6. A file specifing the length of each chromosome at ./data/chr.sizes.genome
 7. Genome coordinates of transcription start sites(TSSs) of all genes to be investigated at ./data/PCG_TSS
 
