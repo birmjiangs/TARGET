@@ -1,4 +1,4 @@
-##Input files:
+## Input files:
 1. Insulation score of tumor cells: a HOMER output .bedGraph file at ./data/<tumor dataset name>.Insulation.bedGraph
 2. Insulation score of normal cells: a HOMER output .bedGraph file at ./data/<normal dataset name>.Insulation.bedGraph
 3. Genome coordinates of TADs in tumor cells: A HOMER output .bed file at ./data/<tumor dataset name>.tad.2D.bed
@@ -11,7 +11,7 @@
 7. Genome coordinates of transcription start sites(TSSs) of all genes to be investigated at ./data/PCG_TSS
 
 
-##Usage:
+## Usage:
 1. To perform TARGET analysis with the example dataset, use the following command without specifing any parameters:
 ```bash
 python run_TARGET.py
