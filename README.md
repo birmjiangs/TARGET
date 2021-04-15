@@ -11,7 +11,7 @@ Input files:
 7. Genome coordinates of transcription start sites(TSSs) of all genes to be investigated at ./data/PCG_TSS
 
 
-Usage£º
+Usage:
 1. To perform TARGET analysis with the example dataset, use the following command without specifing any parameters:
 python run_TARGET.py
 
